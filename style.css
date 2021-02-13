@@ -1,0 +1,83 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-color: black;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  text-align: center;
+  background-color: #FF4040;
+  color: white;
+}
+
+#tambahsiswa a{
+  background-color: green;
+  color: white;
+  padding: 6px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#tambahsiswa a:hover{
+  background-color: gray;
+}
+
+#tambah a{
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 6px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#edit a{
+  background-color: green;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#edit a:hover{
+  background-color: gray;
+}
+
+#hapus a{
+  background-color: green;
+  color: white;
+  padding: 6px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#hapus a:hover{
+  background-color: gray;
+}
+
+#kembali a{
+  background-color: #FF4040;
+  color:white;
+  text-decoration: none;
+  padding: 5px 6px;
+}
+
+#kembali a:hover{
+  background-color: gray;
+}
