@@ -30,7 +30,6 @@
 			<tr>
 				<td></td>
 				<td><input type="submit" value="SIMPAN"></td>
-			</div>
 			</tr>		
 		</table>
 	</form>
